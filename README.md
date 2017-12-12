@@ -1,4 +1,4 @@
 # KevinMa-Website
 
-Build using React.js
-To run, run ``` npm install ```
+Build using React.js <br/>
+To run project, run ``` npm install ```
