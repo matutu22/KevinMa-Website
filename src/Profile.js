@@ -2,7 +2,6 @@
  * Created by machenhan on 2017/12/12.
  */
 import React, {Component} from 'react'
-import './css/col.css'
 import './css/font.css'
 import ansible from './images/icons/ansible.png'
 import css3 from './images/icons/css3.png'
