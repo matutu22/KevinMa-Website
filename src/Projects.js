@@ -6,7 +6,7 @@ import React, {Component} from 'react'
 export default class Projects extends Component{
     render() {
         return (
-            <div> Projects Page </div>
+            <div> Coming Soon </div>
         )
     }
 }

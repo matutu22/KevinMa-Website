@@ -8,7 +8,7 @@ import {
     Switch
 } from 'react-router-dom'
 
-import './main.css';
+import './css/main.css';
 // import image from './images/IMG_2731.jpg'
 import LinkedIn from 'react-icons/lib/fa/linkedin-square'
 import Github from 'react-icons/lib/fa/github'
@@ -27,7 +27,7 @@ class Header extends Component{
 
                     <div id="logo">
 
-                        <h1><a href="index.html">Kevin Ma</a></h1>
+                        <h1><Link to="/">Kevin Ma</Link></h1>
                     </div>
 
                     <nav id="nav">

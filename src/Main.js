@@ -18,7 +18,7 @@ export default class Home extends Component{
 const Description = () => (
     <p style={styles.description}>
         Master IT student at Unimelb<br/>
-        Developer<br/>
+        Software Engineer<br/>
         AI Enthusiast<br/>
         All-arounder<br/>
         Traveller<br/>

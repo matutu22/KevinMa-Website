@@ -6,7 +6,7 @@ import React, {Component} from 'react'
 export default class Footprints extends Component{
     render() {
         return (
-            <div> Footprints Page </div>
+            <div> Coming Soon</div>
         )
     }
 }
