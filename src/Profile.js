@@ -9,12 +9,12 @@ import html from './images/icons/html.png'
 import java from './images/icons/java.png'
 import js from './images/icons/js.png'
 import ml from './images/icons/ml.png'
-import python from './images/icons/python.ico'
+import python from './images/icons/python.png'
 import react from './images/icons/react.png'
 import sql from './images/icons/sql.png'
 import swift from './images/icons/swift.png'
 import aws from './images/icons/aws.png'
-
+import git from './images/icons/git.png'
 
 
 export default class Profile extends Component{
@@ -133,17 +133,18 @@ const Skills = () =>(
 
 const SkillFunctions = {
     skillList :[
-        {name:'Ansible', path : ansible},
         {name:'CSS3', path: css3},
         {name:'HTML', path: html},
-        {name:'Java', path: java},
         {name:'Javascript', path: js},
+        {name:'React.js', path: react},
+        {name:'Java', path: java},
         {name:'ML, AI', path:ml},
         {name:'Python', path: python},
-        {name:'React.js', path: react},
-        {name:'Sql', path: sql},
+        {name:'Ansible', path : ansible},
+        {name:'SQL', path: sql},
         {name:'Swift', path:swift},
         {name: 'AWS', path :aws},
+        {name: 'Git', path:git},
     ],
     all : function() {
         return this.skillList
@@ -177,6 +178,6 @@ const styles = {
         fontWeight: 'bold',
         fontFamily: 'Merriweather',
         textAlign: 'center'
-    }
+    },
 
 }
