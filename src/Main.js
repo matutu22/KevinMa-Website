@@ -20,7 +20,6 @@ const Description = () => (
         Master IT student at Unimelb<br/>
         Software Engineer<br/>
         AI Enthusiast<br/>
-        All-arounder<br/>
         Traveller<br/>
         Sports Enthusiast<br/>
         Movie Enthusiast<br/>
@@ -39,7 +38,8 @@ const styles = {
         textAlign: 'center',
         fontFamily: 'Ubuntu',
         fontSize: '1.5rem',
-        color: 'black'
+        color: 'black',
+        fontWeight: '600'
     },
     icon:{
         width: '3rem',

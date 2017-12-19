@@ -18,6 +18,7 @@ import Home from './Main'
 import Profile from './Profile'
 import Projects from './Projects'
 import Footprints from './Footprints'
+import Loading from './LoadingAnimation'
 
 class Header extends Component{
     render(){
@@ -48,7 +49,23 @@ class Header extends Component{
 }
 
 class Main extends Component{
+    constructor(){
+        super()
+        this.state={
+            isLoading : 1
+        }
+    }
+
+    componentDidMount() {
+        setTimeout(function() { this.setState({isLoading: 0}); }.bind(this), 0);
+    }
+
     render(){
+        if(this.state.isLoading === 1){
+            return(
+                <Loading type="bubbles" color="bubbles"/>
+            )
+        }
         return(
 
             <div id="main-wrapper">
@@ -106,18 +123,21 @@ class Footer extends Component{
 }
 
 class App extends Component {
+
   render() {
-    return (
-      <div id="page-wrapper">
-        <Header/>
 
-        <Main/>
+      return (
+          <div id="page-wrapper">
+              <Header/>
 
-        <Footer/>
+              <Main/>
 
-      </div>
-    );
+              <Footer/>
+
+          </div>
+      )
   }
+
 }
 
 const styles = {
